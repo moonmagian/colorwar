@@ -35,6 +35,7 @@ while True:
                 if arrow == 0:
                     gamemode = GAME_MAINGAME
                     total_game_sec = 0
+                    score = 0
                 else:
                     exit(1)
         if event_check.type == KEYDOWN and gamemode == GAME_MAINGAME:
